@@ -6,17 +6,12 @@ function App() {
 
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-base-100 shadow-sm" data-theme="dark">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">dev Space</a>
         </div>
-        <div className="flex gap-2">
-          <input
-            type="text"
-            placeholder="Search"
-            className="input input-bordered w-24 md:w-auto"
-          />
-          <div className="dropdown dropdown-end">
+        <div className="flex ">
+          <div className="dropdown dropdown-end mx-4">
             <div
               tabIndex={0}
               role="button"
